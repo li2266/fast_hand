@@ -1,0 +1,70 @@
+1497912402.1875637: IN STOCK!!!!!!!!!!!!!!!!!!!!!!!!!
+1497912404.188834: fail to add to cart
+1497912407.588345: fail to checkout
+1497912415.5950456: no quick order
+1497912417.5964365: fail to shipping
+1497912419.598098: fail to input cvv
+1497912421.5982134: fail to billing
+1497912423.5988176: fail to agree term
+1497912425.60103: fail to place the order
+1497912725.5903063: IN STOCK!!!!!!!!!!!!!!!!!!!!!!!!!
+1497912727.5916085: fail to add to cart
+1497912731.4984252: fail to checkout
+1497912739.505048: no quick order
+1497912741.5054078: fail to shipping
+1497912743.5062747: fail to input cvv
+1497912745.50769: fail to billing
+1497912747.5104606: fail to agree term
+1497912749.5108235: fail to place the order
+1497915303.0346956: IN STOCK!!!!!!!!!!!!!!!!!!!!!!!!!
+1497915305.7459538: add to cart successfully
+1497915311.0173104: go to checkout successfully
+1497915312.8806572: login
+1497915318.8842218: no quick order
+1497915328.12073: shipping successfully
+1497915328.1891632: input cvv successfully
+1497915332.320902: finish billing successfully
+1497915332.634145: agree term
+1497915335.795238: place order successfully
+1497915343.8960714: add to cart successfully
+1497915348.7760985: go to checkout successfully
+1497915356.8835874: no quick order
+1497915358.3778293: shipping successfully
+1497915358.54833: input cvv successfully
+1497915359.78071: finish billing successfully
+1497915361.7813742: fail to agree term
+1497915363.7840083: fail to place the order
+1497915385.9240227: IN STOCK!!!!!!!!!!!!!!!!!!!!!!!!!
+1497915387.9135516: add to cart successfully
+1497917719.1359286: IN STOCK!!!!!!!!!!!!!!!!!!!!!!!!!
+1497917721.1369162: fail to add to cart
+1497917732.1975791: fail to checkout
+1497917740.2035992: no quick order
+1497917742.2060015: fail to shipping
+1497917744.2084978: fail to input cvv
+1497917746.2086473: fail to billing
+1497917748.2089539: fail to agree term
+1497917750.209444: fail to place the order
+1497917755.1637936: fail to add to cart
+1497917758.1151192: fail to checkout
+1497917766.1216872: no quick order
+1497917768.1225376: fail to shipping
+1497917770.1237931: fail to input cvv
+1497917772.1956515: fail to billing
+1497917774.2468271: fail to agree term
+1497917776.24697: fail to place the order
+1497917781.409441: fail to add to cart
+2017-06-19 20:19:33: IN STOCK!!!!!!!!!!!!!!!!!!!!!!!!!
+2017-06-19 20:19:35: fail to add to cart
+2017-06-19 20:19:39: fail to checkout
+2017-06-19 20:19:47: no quick order
+2017-06-19 20:19:49: fail to shipping
+2017-06-19 20:19:51: fail to input cvv
+2017-06-19 20:19:53: fail to billing
+2017-06-19 20:19:55: fail to agree term
+2017-06-19 20:19:57: fail to place the order
+2017-06-19 21:10:34: IN STOCK!!!!!!!!!!!!!!!!!!!!!!!!!
+2017-06-19 21:10:40: add to cart successfully
+2017-06-19 21:10:45 type: <class 'splinter.exceptions.ElementDoesNotExist'>
+2017-06-19 21:10:45 args: ('no elements could be found with link by href "javascript:attachDelegateEvent((function(){Biz.GlobalShopping.ShoppingCart.checkOut(\'True\')}));"',)
+2017-06-19 21:10:45 e: no elements could be found with link by href "javascript:attachDelegateEvent((function(){Biz.GlobalShopping.ShoppingCart.checkOut('True')}));"
