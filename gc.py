@@ -261,6 +261,75 @@ with Browser('firefox', profile="/home/pengli/.mozilla/firefox/m9nast68.default"
 
 					else:
 						print("out of stock")
+				# BH
+				elif value.find("bhphotovideo") != -1:
+					print("looking at {0} in BHphotovideo".format(key))
+					instock = browser.find_by_css("button.atc-btn.atcImage.blueBtn.pill-shaped-button.fs26.cursor-pointer.one-line.borderBox")
+					if len(instock) != 2:
+						print("IN STOCK!!!!!!!!!!!!!!!!!!!!!!!!!")
+						print("{0}: IN STOCK!!!!!!!!!!!!!!!!!!!!!!!!!".format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())), file=f)
+						fail = 0
+						while True:
+							# start processing
+							# add to cart
+							add_cart = browser.find_by_css("button.atc-btn.atcImage.blueBtn.pill-shaped-button.fs26.cursor-pointer.one-line.borderBox")
+							if len(add_cart) != 0:
+								add_cart.last.click()
+								print("add to cart successfully")
+								print("{0}: add to cart successfully".format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())), file=f)
+							else:
+								print("fail to add to cart")
+								print("{0}: fail to add to cart".format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())), file=f)
+							
+							# go to cart
+							browser.visit("https://www.bhphotovideo.com/find/cart.jsp")
+							print("{0}: visit cart".format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())), file=f)
+
+							# go to checkout
+							browser.find_by_id("loginCart").click()
+							print("{0}: click checkout".format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())), file=f)
+
+							# is quick order?
+							quick_place = browser.find_by_css("button.next-btn.fs26.c18.bold.cursor-pointer.place-order.checkout-option")
+							if browser.is_text_present("You're almost done. Simply review your information below and place your order"):
+								print("quick order")
+								print("{0}: quick order".format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())), file=f)
+								if len(quick_place) != 0:
+									quick_place.first.click()
+
+							else:
+								# has bug
+								print("no quick order")
+								print("{0}: no quick order".format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())), file=f)
+								# no quick processing
+
+								# continue to payment
+								goto_payment = browser.find_by_css("button.fs24.cursor-pointer.c18.noUnderline.center-align.next-btn")
+								print("{0}: go to payment".format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())), file=f)
+
+								# input cvv
+								browser.fill("ccCIDval", "253")
+								print("{0}: fill cvv".format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())), file=f)
+
+								place_order = browser.find_by_css("button.next-btn.fs26.c18.bold.cursor-pointer.place-order.checkout-option")
+								if len(place_order) != 0:
+									place_order.first.click()
+
+							check = browser.find_by_id("svg.big-check")
+							if len(check) == 1:
+								print("place order successfully")
+								print("{0}: place order successfully".format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())), file=f)
+								amount += 1
+							else:
+								fail += 1
+								print("fail to place the order")
+								print("{0}: fail to place the order".format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())), file=f)
+							if fail > 5 or amount > limitation:
+								break
+							browser.visit(value);
+					else:
+						print("out of stock")
+
 			except Exception as e:
 				print("{0} type: {1}".format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()), type(e)))    # the exception instance
 				print("{0} args: {1}".format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()), e.args))     # arguments stored in .args
