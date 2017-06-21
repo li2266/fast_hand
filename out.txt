@@ -68,3 +68,101 @@
 2017-06-19 21:10:45 type: <class 'splinter.exceptions.ElementDoesNotExist'>
 2017-06-19 21:10:45 args: ('no elements could be found with link by href "javascript:attachDelegateEvent((function(){Biz.GlobalShopping.ShoppingCart.checkOut(\'True\')}));"',)
 2017-06-19 21:10:45 e: no elements could be found with link by href "javascript:attachDelegateEvent((function(){Biz.GlobalShopping.ShoppingCart.checkOut('True')}));"
+2017-06-19 23:25:59: IN STOCK!!!!!!!!!!!!!!!!!!!!!!!!!
+2017-06-19 23:26:01: fail to add to cart
+2017-06-19 23:26:04: fail to checkout
+2017-06-19 23:26:12: no quick order
+2017-06-19 23:26:14: fail to shipping
+2017-06-19 23:26:16: fail to input cvv
+2017-06-19 23:26:18: fail to billing
+2017-06-19 23:26:20: fail to agree term
+2017-06-19 23:26:22: fail to place the order
+2017-06-20 02:27:11: IN STOCK!!!!!!!!!!!!!!!!!!!!!!!!!
+2017-06-20 02:27:17: failed 1
+2017-06-20 02:27:23: failed 2
+2017-06-20 02:27:29: failed 3
+2017-06-20 02:27:35: failed 4
+2017-06-20 02:27:41: failed 5
+2017-06-20 02:27:47: failed 6
+
+2017-06-20 20:07:41: IN STOCK!!!!!!!!!!!!!!!!!!!!!!!!!
+2017-06-20 20:07:43: fail to add to cart
+2017-06-20 20:07:47: fail to checkout
+2017-06-20 20:07:56: no quick order
+2017-06-20 20:07:58 type: <class 'splinter.exceptions.ElementDoesNotExist'>
+2017-06-20 20:07:58 args: ('no elements could be found with link by href "javascript:Biz.GlobalShopping.CheckOut.continueToBilling();"',)
+2017-06-20 20:07:58 e: no elements could be found with link by href "javascript:Biz.GlobalShopping.CheckOut.continueToBilling();"
+2017-06-20 22:13:26 type: <class 'selenium.common.exceptions.TimeoutException'>
+2017-06-20 22:13:26 args: ('Timeout loading page after 300000ms', None, None)
+2017-06-20 22:13:26 e: Message: Timeout loading page after 300000ms
+
+2017-06-20 23:56:26 type: <class 'selenium.common.exceptions.TimeoutException'>
+2017-06-20 23:56:26 args: ('Timeout loading page after 300000ms', None, None)
+2017-06-20 23:56:26 e: Message: Timeout loading page after 300000ms
+
+2017-06-21 03:57:12: IN STOCK!!!!!!!!!!!!!!!!!!!!!!!!!
+2017-06-21 03:57:19: Got MSI VGA Graphic Cards RX 580 ARMOR 8G OC in Amazon
+2017-06-21 03:57:25: failed 1
+2017-06-21 03:57:32: failed 2
+2017-06-21 03:57:38: failed 3
+2017-06-21 03:57:47: failed 4
+2017-06-21 03:57:54: failed 5
+2017-06-21 03:58:06: failed 6
+2017-06-21 04:53:02: IN STOCK!!!!!!!!!!!!!!!!!!!!!!!!!
+2017-06-21 04:53:04: fail to add to cart
+2017-06-21 04:53:13 type: <class 'splinter.exceptions.ElementDoesNotExist'>
+2017-06-21 04:53:13 args: ('no elements could be found with link by href "javascript:attachDelegateEvent((function(){Biz.GlobalShopping.ShoppingCart.checkOut(\'True\')}));"',)
+2017-06-21 04:53:13 e: no elements could be found with link by href "javascript:attachDelegateEvent((function(){Biz.GlobalShopping.ShoppingCart.checkOut('True')}));"
+2017-06-20 20:26:58: IN STOCK!!!!!!!!!!!!!!!!!!!!!!!!!
+2017-06-20 20:27:00: fail to add to cart
+2017-06-20 20:27:06 type: <class 'splinter.exceptions.ElementDoesNotExist'>
+2017-06-20 20:27:06 args: ('no elements could be found with link by href "javascript:attachDelegateEvent((function(){Biz.GlobalShopping.ShoppingCart.checkOut(\'True\')}));"',)
+2017-06-20 20:27:06 e: no elements could be found with link by href "javascript:attachDelegateEvent((function(){Biz.GlobalShopping.ShoppingCart.checkOut('True')}));"
+2017-06-21 04:00:54: IN STOCK!!!!!!!!!!!!!!!!!!!!!!!!!
+2017-06-21 04:01:00: failed 1
+2017-06-21 04:01:06: failed 2
+2017-06-21 04:01:12: failed 3
+2017-06-21 04:01:18: failed 4
+2017-06-21 04:01:30: failed 5
+2017-06-21 04:01:41: failed 6
+2017-06-21 06:27:16: IN STOCK!!!!!!!!!!!!!!!!!!!!!!!!!
+2017-06-21 06:27:18: fail to add to cart
+2017-06-21 06:27:24 type: <class 'splinter.exceptions.ElementDoesNotExist'>
+2017-06-21 06:27:24 args: ('no elements could be found with link by href "javascript:attachDelegateEvent((function(){Biz.GlobalShopping.ShoppingCart.checkOut(\'True\')}));"',)
+2017-06-21 06:27:24 e: no elements could be found with link by href "javascript:attachDelegateEvent((function(){Biz.GlobalShopping.ShoppingCart.checkOut('True')}));"
+2017-06-21 10:39:45 type: <class 'TypeError'>
+2017-06-21 10:39:45 args: ('strftime() takes at most 2 arguments (3 given)',)
+2017-06-21 10:39:45 e: strftime() takes at most 2 arguments (3 given)
+2017-06-21 10:39:55 type: <class 'TypeError'>
+2017-06-21 10:39:55 args: ('strftime() takes at most 2 arguments (3 given)',)
+2017-06-21 10:39:55 e: strftime() takes at most 2 arguments (3 given)
+2017-06-21 10:40:08 type: <class 'TypeError'>
+2017-06-21 10:40:08 args: ('strftime() takes at most 2 arguments (3 given)',)
+2017-06-21 10:40:08 e: strftime() takes at most 2 arguments (3 given)
+2017-06-21 10:40:16 type: <class 'TypeError'>
+2017-06-21 10:40:16 args: ('strftime() takes at most 2 arguments (3 given)',)
+2017-06-21 10:40:16 e: strftime() takes at most 2 arguments (3 given)
+2017-06-21 10:40:27 type: <class 'TypeError'>
+2017-06-21 10:40:27 args: ('strftime() takes at most 2 arguments (3 given)',)
+2017-06-21 10:40:27 e: strftime() takes at most 2 arguments (3 given)
+2017-06-21 10:40:36 type: <class 'TypeError'>
+2017-06-21 10:40:36 args: ('strftime() takes at most 2 arguments (3 given)',)
+2017-06-21 10:40:36 e: strftime() takes at most 2 arguments (3 given)
+2017-06-21 10:40:40 type: <class 'TypeError'>
+2017-06-21 10:40:40 args: ('strftime() takes at most 2 arguments (3 given)',)
+2017-06-21 10:40:40 e: strftime() takes at most 2 arguments (3 given)
+2017-06-21 10:40:46 type: <class 'TypeError'>
+2017-06-21 10:40:46 args: ('strftime() takes at most 2 arguments (3 given)',)
+2017-06-21 10:40:46 e: strftime() takes at most 2 arguments (3 given)
+2017-06-21 10:40:49 type: <class 'TypeError'>
+2017-06-21 10:40:49 args: ('strftime() takes at most 2 arguments (3 given)',)
+2017-06-21 10:40:49 e: strftime() takes at most 2 arguments (3 given)
+2017-06-21 10:44:32: VisionTek Radeon RX 480 DirectX 12 900888  IN STOCK!!!!!!!!!!!!!!!!!!!!!!!!! at NEWEGG
+2017-06-21 10:44:34: fail to add to cart
+2017-06-21 10:44:39: fail to checkout
+2017-06-21 10:44:47: no quick order
+2017-06-21 10:44:49: fail to shipping
+2017-06-21 10:44:51: fail to input cvv
+2017-06-21 10:44:53: fail to billing
+2017-06-21 10:44:55: fail to agree term
+2017-06-21 10:44:57: fail to place the order
